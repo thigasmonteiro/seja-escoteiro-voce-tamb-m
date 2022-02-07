@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+
+*{
+    box-sizing: border-box;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    border: 1px dashed white;
+   
+}
+
+.col-1{width: 8.33% }
+.col-2{width:16.66%}
+.col-3{width:25%}
+.col-4{width:33.33%}
+.col-5{width:41.66%}
+.col-6{width:50%}
+.col-7{width:58.33%}
+.col-8{width:66.66%}
+.col-9{width:75%}
+.col-10{width:83.33%} 
+.col-11{width:91.66%}
+.col-12{width:100%}
+
+#logo{
+    height: 70px;
+    display: block;
+    margin: 0;
+    width: 100%;
+
+}
+#titulo-principal{
+    text-align: center;
+    height: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white
+}
+
+nav ul{
+    list-style-type: disc;
+    padding: 0;
+    color: white;
+
+}
+    nav li{
+        display: inline;
+        color: white;
+         padding: 70px;
+    }
+nav a{
+color: white;
+text-decoration: none;
+font-size: 1.5em;
+text-decoration: dashed;
+}
+
+#assunto h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+.destaque img{
+    width: 70%;
+    float: left;
+    margin-right: 5px;
+}
+
+.destaque2 img{
+    width: 70%;
+    float: left;
+    height: 415px;
+    margin-right: 5px;
+}
+#propaganda img{
+    width: 100%;
+    height: 550px;
+
+}
+body{
+    background: rgb(32,24,185);
+    background: linear-gradient(245deg, rgba(32,24,185,1) 1%, rgba(22,139,19,1) 39%, rgba(237,255,57,1) 62%, rgba(186,186,186,1) 100%);
+}
+.destaque p{
+    font-size: 1em;
+    text-align: justify;
+    color: #000000;
+    font-size: 1.2em;
+}
+.destaque2 p{
+    font-size: 1.1em;
+    text-align: justify;
+    color: #000000;
+    
+}
+
+#amarras img{
+    width: 100%;
+}
+
+#amarras h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: dashed;
+    color: rgb(2, 2, 131);
+
+}
+#amarras h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: dashed;
+    color: #2c7e8f;
+
+}
+#amarras p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 1em;
+    color: #000000;
+}
+#footer p{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
